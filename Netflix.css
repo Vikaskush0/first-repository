@@ -568,14 +568,14 @@ button{
 @media (min-width: 375px) and (max-width: 426px) {
     .vidio1 video {
         position: absolute;
-        width: 53vw;
-        top: 36.5vw;
-        right: 17.7vw;
+        width: 54vw;
+        top: 40.5vw;
+        right: 20.7vw;
     }
     .login{
         display: flex;
     justify-content: center;
-    width: 418px;
+    width: auto;
     align-items: center;
     flex-direction: column;
     gap: 20px;
@@ -692,9 +692,9 @@ button{
     }
     .vidio video {
         position: absolute;
-        width: 42vw;
-        top: 15.4vw;
-        right: 13.3vw;
+        width: 51vw;
+        top: 16.4vw;
+        right: 11.3vw;
     }
     
     

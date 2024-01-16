@@ -235,7 +235,7 @@ button{
     align-items: center;
     width: 800px;
 }
-@media (min-width: 1900px) and (max-width: 1277) {
+@media screen and (max-width: 1277) {
     *{
         margin: 0;
         padding: 0%;
@@ -449,7 +449,7 @@ button{
 
     
 }
-@media (min-width: 970px) and (max-width: 1277px) {
+@media screen and (max-width: 1277px) {
     .navbar{
     display: flex;
     justify-content: space-between;
@@ -464,7 +464,7 @@ button{
     
     
 }
-@media (min-width: 425px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     h2{
         font-size: 25px;
     }
@@ -508,17 +508,17 @@ button{
     }
     
     .vidio1 img {
-        
-        position: absolute;
+        position: relative;
         width: 51vw;
-        top: 30.5vw;
-        right: 2vw;
+        top: 5.5vw;
+        right: 0vw;
+    
     }
     .vidio1 video {
         position: absolute;
-        width: 50vw;
-        top: 31.5vw;
-        right: 26vw;
+        width: 39vw;
+        top: 19.5vw;
+        right: 29.8vw;
     }
 
     
@@ -571,7 +571,7 @@ button{
         
     }
 }
-@media (min-width: 375px) and (max-width: 426px) {
+@media screen and (max-width: 426px) {
     .vidio1 video {
         position: absolute;
         width: 54vw;
@@ -706,7 +706,11 @@ button{
     
     
 }
-@media (min-width: 320px) and (max-width: 376px) {
+@media screen and (max-width: 1024) {
+
+    
+}
+@media screen and (max-width: 376px) {
     .vidio1 video {
         position: absolute;
         width: 58vw;
@@ -839,149 +843,8 @@ button{
     
     
 }
-@media (min-width: 0px) and (max-width: 321px) {
-    .vidio1 video {
-        position: absolute;
-        width: 58vw;
-        top: 40.5vw;
-        right: 18vw;
-    }
-    .vidio video {
-        position: absolute;
-        width: 47vw;
-        top: 17.4vw;
-        right: 14.3vw;
-    }
-    .login{
-        display: flex;
-    justify-content: center;
-    width: 300px;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    }
-    .upperlog{
-        width: 305px;
-
-    }
-    .inpu{
-        width: 303px;
-    }
-    .content{
-        align-content: center;
-        position: relative;
-        top: 19%;
-        width: 100%;
-        color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 5px;
-
-    
-        
-    }
-    h1{
-        font-size: 36px;
-        text-align: center;
-    }
-    h3{
-        font-size: 24px;
-        text-align: center;
-    }
-    .vidio1 img {
-        position: relative;
-        z-index: 38;
-        top: 1vw;
-        left: 11px;
-        width: 297px;
-    }
-    .photo2 {
-        position: relative;
-        background-image: url(mobileimg2net.jpg);
-        width: 304px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 176px;
-    }
-    .vidio img {
-        position: relative;
-        z-index: 38;
-        top: 43px;
-        left: 9px;
-        width: 297px;
-    }
-    .photo {
-        position: relative;
-        background-image: url(img\ 4net.png);
-        width: 263px;
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 225px;
-    }
-    h2{
-        font-size: 30px;
-        text-align: center;
-    }
-    p{
-        font-size: 20px;
-        text-align: center;
-    }
-    .back {
-        background-image: url(netflixback.jpg);
-        height: 524px;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-color: black;
-    }
-    .Center {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: space-evenly;
-        align-items: center;
-        width: 389px;
-    }
-    .ad1 {
-        height: 101vw;
-    }
-    .Get {
-        height: 46px;
-        padding: 2px 5px;
-        width: 154px;
-        border-radius: 5px;
-    }
-    .Start {
-        text-decoration: none;
-        color: white;
-        position: relative;
-        top: 1px;
-        font-size: 21px;
-    }
-    .Center2 {
-        flex-direction: column-reverse;
-        display: flex;
-        position: relative;
-        justify-content: center;
-        align-items: center;
-        width: column;
-    }
-    
-    
-}
 
 
 
 
-@keyframes hide {
-    0%{
-        display: none;
-    }
-    10%{
-        display: block;
-    }
-    
-}
+
